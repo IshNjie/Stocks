@@ -31,3 +31,6 @@ def test_returns(returns_input1,returns_input2,returns_output):
 def test_sharpe(sharpe_input1,sharpe_input2,sharpe_input3,sharpe_output):
     ratio = operations.sharpe_ratio(sharpe_input1,sharpe_input2,sharpe_input3)
     assert pytest.approx(ratio) == sharpe_output
+
+
+# run pytest operations_test.py
