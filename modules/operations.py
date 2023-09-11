@@ -9,4 +9,10 @@ def returns(x,y) -> float:
     returns = (x - y) / y
     return returns
 
+def sharpe_ratio(mean,std,rate) -> float:
+    
+
+    ratio = (mean - rate)/std
+    return ratio
+
     
