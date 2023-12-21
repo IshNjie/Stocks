@@ -5,3 +5,5 @@ Images
 __pycache__
 .pytest_cache
 test
+.DS_Store
+_test_files
